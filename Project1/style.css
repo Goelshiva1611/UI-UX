@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  background-color: antiquewhite;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.firstdiv {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.firstdiv h1 {
+  font-size: 40px;
+}
+.firstdiv ul li {
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.list {
+  list-style-type: square;
+}
+.firstdiv p {
+  align-content: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.firstdiv b {
+  font-size: larger;
+}
+.firstdiv footer p {
+  font-size: medium;
+  margin: 20px 0px 20px 20px;
+  text-align: end;
+  justify-content: end;
+}
+
+.divflex {
+  text-transform: uppercase;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.divflex img {
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+}
+.divflex h4 {
+  text-align: end;
+}
