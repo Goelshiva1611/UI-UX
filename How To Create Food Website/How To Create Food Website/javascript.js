@@ -1,6 +1,6 @@
 function record() {
   var recognition = new webkitSpeechRecognition();
-  recognition.lang = "hi-GB";
+  recognition.lang = "en-GB";
   recognition.onresult = function (event) {
     console.log(event);
     document.getElementById("speechtotext").value =
