@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.courier-prime-regular-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#search-result {
+    display: grid;
+    column-gap: 40px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-between; */
+}
+
+#search-result img {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+
+}
+
+#search-more-button {
+    display: none;
+}
+
+#search-text {
+    font-style: italic;
+    margin-right: 8px;
+    padding-left: 20px;
+    border-width: 2px;
+    color: rgb(61, 53, 53);
+    border-style: solid;
+    height: 30px;
+    width: 250px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.section-1 {
+    display: block;
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+button {
+    font-style: italic;
+    font-family: monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(53, 40, 40);
+    border-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-style: solid;
+    background-color: rgba(148, 0, 254, 0.468);
+}

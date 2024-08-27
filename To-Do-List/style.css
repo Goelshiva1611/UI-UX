@@ -96,13 +96,15 @@ ul li {
     list-style: none;
     font-size: 17px;
     padding: 12px 8px 12px 50px;
-    user-select: none;
-    cursor: pointer;
     position: relative;
-    text-align: left;
-    margin-right: 10px;
+    text-align: justify;
 }
 
+ul li p
+{
+    width: 350px;
+    text-align: justify;
+}
 ul li::before {
     content: '';
     position: absolute;
@@ -112,12 +114,13 @@ ul li::before {
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
+    cursor: pointer;
     top: 10px;
     left: 8px;
-
 }
 
 ul li.checked {
+ 
     color: #555;
     text-decoration: line-through;
 }
@@ -136,8 +139,9 @@ ul li span {
     font-weight: bolder;
     line-height: 40px;
     color: rgb(255, 0, 0);
-    text-align: center;
     border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
 }
 
 ul li span:hover {

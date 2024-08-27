@@ -8,12 +8,15 @@ function addtask() {
     }
     else {
         let li = document.createElement("li")
-        li.innerHTML = inputbox.value;
         listcontainer.appendChild(li);
+
+        let p=document.createElement("p")
+        p.innerHTML=inputbox.value;
+        li.appendChild(p)
+       
         let span = document.createElement("span")
         span.innerHTML = "\u00d7";
-        li.appendChild(span)
-        li.style.marginLeft = "10px";
+        li.appendChild(span);
     }
     inputbox.value = "";
     savedata();

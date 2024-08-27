@@ -16,7 +16,7 @@ async function checkwheather(city) {
         document.querySelector(".weather").style.display = "none";
     }
     else {
-        
+
         console.log(data);
         document.querySelector(".city").innerHTML = data.name;
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
@@ -42,7 +42,8 @@ async function checkwheather(city) {
         document.querySelector(".error").style.display = "none";
     }
 }
-searchbtn.addEventListener("click", () => {
+searchbtn.addEventListener("click", (e) => {
+    e.preventDefault();
     checkwheather(searchbox.value);
 })
 function record() {
