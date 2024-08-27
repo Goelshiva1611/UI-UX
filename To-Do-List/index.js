@@ -1,6 +1,7 @@
 const inputbox = document.getElementById('input-box')
 const listcontainer = document.getElementById('list-container')
 
+const addhello=document.getElementById('row')
 
 function addtask() {
     if (inputbox.value === '') {
@@ -21,7 +22,9 @@ function addtask() {
     inputbox.value = "";
     savedata();
 }
+
 listcontainer.addEventListener("click", function (e) {
+    e.preventDefault();
     if (e.target.tagName === "LI") {
         e.target.classList.toggle("checked");
         savedata()
